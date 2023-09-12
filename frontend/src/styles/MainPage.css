@@ -1,0 +1,50 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.button-redirect {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.current-date-time {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 25px;
+}
+
+.current-date-time p {
+  border: 3px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: #dbdbdb;
+}
+
+.current-date-time p {
+  margin: 0; 
+  text-align: center;
+  color: #333;
+}
+
+#fast {
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 400px;
+  margin-left: 350px;
+}
+
+#btnClick {
+  background-color: #2f58ff;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border-color: aliceblue;
+  width: 30%;
+  margin-top: 25px;
+  margin-left: 390px;
+}

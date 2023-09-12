@@ -1,0 +1,11 @@
+{
+    "name": "fast-double-click",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install-deps": "cd backend && npm install && cd ../frontend && npm install"
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^6.1.3"
+    }
+}

@@ -1,0 +1,140 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+body {
+ background-color: whitesmoke;
+}
+
+/* h1 {
+  margin: 20px;
+} */
+
+h1 {
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  background-color: #ffffff;
+  width: 400px;
+  margin-left: 500px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+select {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 15px;
+  margin-top: -3px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.link-buttons {
+  margin-top: 20px;
+}
+
+.constainer-filters {
+  display: flex;
+  justify-content: center;
+}
+
+.title-h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.button-filter {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.label-oder-by {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.label-end-date {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.label-start-date {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.label-order {
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#btn-filter {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 25%;
+  font-size: 25px;
+}
+
+#startDate {
+  width: 12%;
+  margin-bottom: 20px;
+}
+
+#endDate {
+  width: 12%;
+  margin-bottom: 20px;
+}
+
+#orderBy {
+  width: 10%;
+}
+
+#order {
+  width: 10%;
+}
+
+.container-btn-clear {
+  display: flex;
+  justify-content: center;
+}
+
+.container-list-record {
+  font-size: 22px;
+}
+
+#btn-home {
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 85px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#filter {
+  margin-right: 10px;
+}
